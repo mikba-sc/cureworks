@@ -94,3 +94,8 @@ img {border:0;}
 a {
 	text-decoration: underline;
 }
+
+alertSection {
+    color:red;
+    font-size:larger;
+}
