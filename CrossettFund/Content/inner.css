@@ -1,0 +1,120 @@
+﻿
+#wrap {
+	width:770px;
+	margin:0px;
+	padding:0;
+}
+
+#innermast {
+	margin:0;
+	padding:0;
+	border-bottom:5px #fff solid;
+	line-height:0;
+}
+
+
+
+#contentwrap {
+	width:550px;
+    margin-left:40px;
+	margin-top:5px;
+}
+
+#contentmain {
+
+}
+
+#contentmain h1, #contentmain  h2, #contentmain  h3, #contentmain  h4,  #contentmain h5, #contentmain  h6 {
+	font-family: Georgia, Verdana, sans-serif;
+	color: #333;
+}
+
+#contentmain h1 {
+	font-size:110%;
+	margin:0;
+}
+
+#contentmain h2 {
+	font-size:90%;
+	margin:5px 0 -5px 0;
+}
+
+#contentmain h3 {
+	font-size:75%;
+	margin:15px 0 -5px 0;
+}
+
+#contentmain p {
+	font-size:75%;
+	font-family: Verdana, sans-serif;
+	line-height: 18px;
+	padding-left:2px;
+}
+
+#contentmain li {
+	font-size:75%;
+	font-family: Verdana, sans-serif;
+	line-height: 18px;
+	color: #333;
+	padding:3px 0px;
+}
+
+.pullquote {
+	background: url(/images/pullquote.gif) no-repeat .5em .5em;
+	border-top: 1px  solid #ccc;
+	border-bottom: 1px  solid #ccc;
+	margin: 10px 20px 0 20px;
+	padding: 5px 35px;
+	line-height: 18px;
+	color: #357;
+	font-family: Verdana, sans-serif;
+}
+
+/* STYLES FOR IMAGES WITHIN CONTENT */
+
+.picture {
+    border: 1px solid #000;
+	margin: 3px;
+}
+
+.imageLeft, .imageRight {
+	font-family: "Lucida Grande", "Lucida Sans", Arial, Verdana, sans-serif;
+	font-size: 60%;
+	text-align: center;
+	padding: 0 2px;
+}
+
+.imageLeft {
+	float: left;
+	margin: 20px 10px 10px 0;
+	border:1px #000 solid;
+	padding:2px;
+	}
+
+.imageRight {
+	float: right;
+	margin: 20px 0 10px 10px;
+	padding:2px;
+	}
+	
+  #highlights {
+  float: right;
+  width: 200px;
+  margin: 4px 0 20px 10px;
+  }
+  
+  #highlights ul {
+  margin: 5px 5px 0 12px;
+  padding: 0 0 0 12px;
+  }
+  
+  #highlights h2 {
+  background: #B6CC99;
+  padding: 5px 0 5px 10px;
+  margin: 0;
+  }
+  
+  .quote {
+  text-align:right
+  }
+  

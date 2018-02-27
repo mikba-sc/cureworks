@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Crossett Fund - Improving the health of SE Alaska's children, youth, and families</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" type="text/css" href="~/Content/general.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/inner.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="~/Content/print.css" />
+</head>
+
+<body id="@ViewBag.pageType">
+    <div id="pagewidth">
+        <div class="hide"><a href="#content" title="Skip navigation" accesskey="2">Skip Navigation</a>.</div>
+        <div id="header">
+            <div id="logo"><a href="http://www.seattlechildrens.org"><img src="~/Content/images/scLOGO_noR_lgV_rev.png" alt="Seattle Children's" /></a></div>
+            <ul>
+                <li id="nav-home">@Html.ActionLink("Home", "Index", "Home", null, new { @class = "tab" })</li>
+                <li id="nav-projects">@Html.ActionLink("Projects", "projects", "Home", null, new { @class = "tab" })</li>
+                <li id="nav-highlight">@Html.ActionLink("Highlights", "highlights", "Home", null, new { @class = "tab" })</li>
+                <li id="nav-guidelines">@Html.ActionLink("Funding Guidelines", "guidelines", "Home", null, new { @class = "tab" })</li>
+                <li id="nav-application">@Html.ActionLink("Funding Application", "application", "Home", null, new { @class = "tab" })</li>
+                <li id="nav-contact">@Html.ActionLink("Contact", "contact", "Home", null, new { @class = "tab" })</li>
+            </ul>
+        </div>
+        <div id="innermast"><img src="~/Content/mast.jpg" width="600" height="125" alt="" /></div>
+
+        <div id="wrap">
+            <a name="content" id="content"></a>
+            <div id="contentwrap">
+                <div id="contentmain">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"> &copy; 1995-@(DateTime.Now.Year) <a href="http://www.seattlechildrens.org">Seattle Children's</a> </div>
+    </div>
+</body>
+</html>
