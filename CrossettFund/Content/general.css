@@ -95,7 +95,7 @@ a {
 	text-decoration: underline;
 }
 
-alertSection {
+.alertSection {
     color:red;
     font-size:larger;
 }
